@@ -25,4 +25,22 @@ pip install tensorflow[and-cuda]==2.14
 
 # Install keras-tcn without dependencies
 pip install keras-tcn --no-dependencies
+```
 
+### Using Pixi
+```bash
+# Download code
+git clone https://github.com/bermanlabemory/Temporal-Autoencoders-For-Causal-Inference-TACI
+
+# Go into downloaded directory
+cd Temporal-Autoencoders-For-Causal-Inference-TACI
+
+# Install pixi
+curl -fsSL https://pixi.sh/install.sh | sh
+
+# Install environment
+pixi install
+
+# Activate environment
+pixi s
+```
